@@ -16,6 +16,8 @@ class ApplicationController < Sinatra::Base
     erb :create_tweet
   end
 
+  post '/tweets'
+
   get '/signup' do
 
     erb :create_user
