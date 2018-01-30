@@ -63,6 +63,7 @@ class ApplicationController < Sinatra::Base
 
   get '/logout' do
 
+    erb :index
   end
 
 end
