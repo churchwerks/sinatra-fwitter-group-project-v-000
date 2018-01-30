@@ -39,6 +39,7 @@ class ApplicationController < Sinatra::Base
 
   end
 
+  # DELETE TWEET
   delete 'tweets/:id/delete' do
 
   end
