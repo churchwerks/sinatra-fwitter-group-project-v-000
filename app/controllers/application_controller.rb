@@ -23,6 +23,7 @@ class ApplicationController < Sinatra::Base
 
   end
 
+  # SHOW TWEET
   get '/tweets/:id' do
 
     erb :show_tweet
