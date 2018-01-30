@@ -54,6 +54,9 @@ class ApplicationController < Sinatra::Base
 
   end
 
+  # LOG IN
+
+
   get '/logout' do
 
   end
