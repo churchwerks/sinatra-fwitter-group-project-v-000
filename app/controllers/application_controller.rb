@@ -32,7 +32,7 @@ class ApplicationController < Sinatra::Base
   # EDIT TWEET
   get '/tweets/:id/edit' do
 
-    erb :edit_tweet
+    erb :'tweets/edit_tweet'
   end
 
   patch '/tweets/:id' do
@@ -40,7 +40,7 @@ class ApplicationController < Sinatra::Base
   end
 
   # DELETE TWEET
-  delete 'tweets/:id/delete' do
+  delete '/tweets/:id/delete' do
 
   end
 
@@ -55,6 +55,10 @@ class ApplicationController < Sinatra::Base
   end
 
   # LOG IN
+  get '/login' do
+
+    erb :''
+  end
 
 
   get '/logout' do
