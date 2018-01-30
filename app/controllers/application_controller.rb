@@ -30,6 +30,11 @@ class ApplicationController < Sinatra::Base
     erb :edit_tweet
   end
 
+  patch '/tweets/:id' do
+
+
+  end
+
   get '/signup' do
 
     erb :create_user
