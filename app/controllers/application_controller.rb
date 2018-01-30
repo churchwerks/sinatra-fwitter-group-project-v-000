@@ -20,6 +20,11 @@ class ApplicationController < Sinatra::Base
 
   end
 
+  get '/tweets/:id' do
+
+    erb :show_tweet
+  end
+
   get '/signup' do
 
     erb :create_user
