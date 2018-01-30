@@ -32,7 +32,10 @@ class ApplicationController < Sinatra::Base
 
   patch '/tweets/:id' do
 
+  end
 
+  delete 'tweets/:id/delete' do
+    
   end
 
   get '/signup' do
