@@ -16,7 +16,7 @@ class ApplicationController < Sinatra::Base
   # CREATE TWEET
   get '/tweets/new' do
 
-    erb :create_tweet
+    erb :'/tweets/create_tweet'
   end
 
   post '/tweets' do
@@ -26,7 +26,7 @@ class ApplicationController < Sinatra::Base
   # SHOW TWEET
   get '/tweets/:id' do
 
-    erb :show_tweet
+    erb :'/tweets/show_tweet'
   end
 
   # EDIT TWEET
@@ -47,7 +47,7 @@ class ApplicationController < Sinatra::Base
   # SIGN UP
   get '/signup' do
 
-    erb :create_user
+    erb :'/users/create_user'
   end
 
   post '/signup' do
@@ -57,7 +57,7 @@ class ApplicationController < Sinatra::Base
   # LOG IN
   get '/login' do
 
-    erb :''
+    erb :'/users/login'
   end
 
 
